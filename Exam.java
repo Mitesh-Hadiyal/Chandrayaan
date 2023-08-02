@@ -140,7 +140,7 @@ class Main{
         // e.command();
 
         char[] cmd = {'f','r','u','b','l'};
-
+        
         for(int i=0; i<cmd.length;i++)
         {
             e.execute(cmd[i],e);
@@ -181,5 +181,11 @@ char[] cmd = {'f','b'};
         0 1 -1 - N
 
 4)
+char[] cmd = {'f','r','f'}; 
+        OUTPUT
+        0 0 0 - N
+        0 1 0 - N
+        0 1 0 - E
+        1 1 0 - E
 
 */
