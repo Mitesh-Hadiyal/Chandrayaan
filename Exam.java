@@ -128,7 +128,6 @@ public class Exam{
                 break;
             case 'l': e.left();
                 break;
-            case 'd': arr[1]++;
         }
     }
 } 
