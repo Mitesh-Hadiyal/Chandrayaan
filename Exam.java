@@ -1,5 +1,4 @@
 
-// import java.util.Scanner;
 
 public class Exam{
     int[] arr = new int[3];
