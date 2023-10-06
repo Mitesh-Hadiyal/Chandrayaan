@@ -10,20 +10,7 @@ public class Exam{
         arr[2]=0;
         direction="N";
     }
-    // public char[] command()
-    // {
-    //     Scanner sc = new Scanner(System.in);
-    //     System.out.print("Enter Number of Commands : ");
-    //     int no_cmd = sc.nextInt();
-    //     char[] cmd = new char[no_cmd];
 
-    //     for(int i=0; i<cmd.length; i++)
-    //     {
-    //         System.out.print("Enter Commands : ");
-    //         cmd[i] = sc.nextChar();//.charAt(i);
-    //     }
-    //     return cmd;
-    // }
     void starting(){
         // System.out.print("Starting Position : ");
         for(int i=0; i<arr.length; i++)
@@ -149,8 +136,6 @@ class Main{
 }
 
 /*
-NOTE : Since i have less knowledge in TDD, this is my code and Test Case File to the Best of My Knowledge.(I am on Learning Stage.)
-
 
 Test Cases:
 I have used Starting Position for Every Test.
